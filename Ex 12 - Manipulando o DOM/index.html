@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manipulando o DOM</title>
+  <script src="index.js" defer></script>
+</head>
+
+<body>
+  <h1>Cadastre sua casa</h1>
+  <hr>
+  <br>
+  <p>
+    <label for="numberHouse">Número:</label>
+    <input type="text" name="numberHouse" id="numberHouse" value="">
+  </p>
+  <p>
+    <label for="nameNeighborhood">Bairro:</label>
+    <input type="text" name="nameNeighborhood" id="nameNeighborhood" value="">
+  </p>
+  <p>
+    <label for="nameCity">Cidade:</label>
+    <input type="text" name="nameCity" id="nameCity" value="">
+  </p>
+  <p>
+    <label for="spaceArea">Tamanho da casa:</label>
+    <input type="text" name="spaceArea" id="spaceArea" value="">
+  </p>
+
+  <button onclick="registerHouse()" type="button">Cadastrar</button>
+
+
+  <section id="houses"></section>
+</body>
+
+</html>
